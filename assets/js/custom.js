@@ -57,9 +57,6 @@ $(document).ready(function ($) {
 			stylers: [{ color: "#dbdbdb" }, { visibility: "on" }],
 		},
 	];
-	// if( $("#map").length ){
-	//     simpleMap(latitude, longitude, markerImage, mapStyle, mapElement);
-	// }
 
 	$("body").imagesLoaded(function () {
 		$("body").addClass("loading-done");
