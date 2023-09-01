@@ -1,7 +1,4 @@
 /*----------------------------------------------------------------------------------------------------------------------
-Project:	    StartUps
-Version:        1.0.0
-
 Default Color   #ff6a6a;
 
 Body copy:		'Poppins', sans-serif; 15px;
@@ -448,18 +445,6 @@ B. Helpers
 
 .ts-background-is-dark .form-control:focus {
 	box-shadow: 0 0 0 0.125rem rgba(255, 255, 255, 0.4);
-}
-
-.ts-background-is-dark .ts-btn-border-muted {
-	border-color: rgba(255, 255, 255, 0.1);
-}
-
-.ts-video-bg {
-	height: 100%;
-}
-
-.ts-video-bg .fluid-width-video-wrapper {
-	height: 100%;
 }
 
 /*-------------------------------------------
@@ -1468,7 +1453,7 @@ form.ts-labels-inside-input .form-group label.focused,
 -------------------------------------------*/
 
 ul {
-	line-height: 2.5rem;
+	line-height: 1.5rem;
 	list-style: none;
 	padding-left: 0;
 }
@@ -1784,46 +1769,46 @@ D. Plugins Styles
 
 /* overlay at start */
 
-.mfp-fade.mfp-bg {
+/* .mfp-fade.mfp-bg {
 	opacity: 0;
 	background-color: #000;
 	-webkit-transition: all 0.15s ease-out;
 	-moz-transition: all 0.15s ease-out;
 	transition: all 0.15s ease-out;
-}
+} */
 
 /* overlay animate in */
 
-.mfp-fade.mfp-bg.mfp-ready {
+/* .mfp-fade.mfp-bg.mfp-ready {
 	opacity: 0.8;
-}
+} */
 
 /* overlay animate out */
 
-.mfp-fade.mfp-bg.mfp-removing {
+/* .mfp-fade.mfp-bg.mfp-removing {
 	opacity: 0;
-}
+} */
 
 /* content at start */
 
-.mfp-fade.mfp-wrap .mfp-content {
+/* .mfp-fade.mfp-wrap .mfp-content {
 	opacity: 0;
 	-webkit-transition: all 0.15s ease-out;
 	-moz-transition: all 0.15s ease-out;
 	transition: all 0.15s ease-out;
-}
+} */
 
 /* content animate it */
 
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+/* .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
 	opacity: 1;
-}
+} */
 
 /* content animate out */
 
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+/* .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
 	opacity: 0;
-}
+} */
 
 /*-------------------------------------------
   -- Owl Carousel
@@ -1915,7 +1900,7 @@ D. Plugins Styles
 }
 
 /***********************************************************************************************************************
-E. Template Specific Elements
+
 ***********************************************************************************************************************/
 
 /*-------------------------------------------
