@@ -2514,3 +2514,11 @@ D. Plugins Styles
 .hero-list li {
 	list-style-type: circle;
 }
+footer {
+	/* width: 100%; */
+	/* background-color: red; */
+}
+footer .row a {
+	text-decoration: none;
+	color: #000000b8;
+}
