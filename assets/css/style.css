@@ -2522,3 +2522,7 @@ footer .row a {
 	text-decoration: none;
 	color: #000000b8;
 }
+
+section.footer i {
+	color: black;
+}
