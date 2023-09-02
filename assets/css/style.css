@@ -1139,8 +1139,11 @@ body.has-loading-screen.loading-done:after {
 	transition: 1s ease;
 	background-color: white !important;
 }
+.nav-link.active {
+	color: #000;
+}
 .nav-link {
-	color: #000 !important;
+	color: #000000c2 !important;
 }
 [class*="navbar-expand"] .navbar-nav .nav-link {
 	padding-top: 0.3125rem;
@@ -1300,29 +1303,6 @@ D. Plugins Styles
 .ts-tabs-presentation .tab-pane.show.active img {
 	opacity: 1;
 	transform: translateY(0);
-}
-
-/* Hero navigation arrows */
-
-#ts-hero .owl-prev,
-#ts-hero .owl-next {
-	background-color: transparent;
-	border: 0.125rem solid rgba(255, 255, 255, 0.8);
-}
-
-#ts-hero .owl-prev:after,
-#ts-hero .owl-next:after {
-	line-height: 2.25rem;
-}
-
-/* Hero slider height */
-
-.ts-hero-slider {
-	height: 100% !important;
-}
-
-.ts-hero-slider div {
-	height: 100% !important;
 }
 
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
