@@ -1137,13 +1137,13 @@ body.has-loading-screen.loading-done:after {
 
 .navbar .ts-background {
 	transition: 1s ease;
-	background-color: white !important;
+	background-color: #198754 !important;
 }
 .nav-link.active {
-	color: #000;
+	/* color: #000; */
 }
 .nav-link {
-	color: #000000c2 !important;
+	/* color: #000000c2 !important; */
 }
 [class*="navbar-expand"] .navbar-nav .nav-link {
 	padding-top: 0.3125rem;
