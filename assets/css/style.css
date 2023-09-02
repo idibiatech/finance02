@@ -1642,6 +1642,17 @@ D. Plugins Styles
 	color: #ffc773;
 }
 
+.dreams-text {
+	font-weight: 900;
+}
+.begins-text {
+	/* font-weight: 100 ; */
+	font-size: 3.4rem;
+}
+
+.logo {
+	width: 10rem;
+}
 footer {
 	background-color: rgba(215, 215, 215, 0.347);
 }
